@@ -1,0 +1,64 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'Bwl.GenericAvrPcb.pdsprj'.
+CADCAM generated at 0:54:13 on 17 окт€бр€ 2013 г..
+
+File List
+---------
+Top Copper              : Bwl.GenericAvrPcb - CADCAM Top Copper.TXT
+Bottom Copper           : Bwl.GenericAvrPcb - CADCAM Bottom Copper.TXT
+Top SMT Paste Mask      : Bwl.GenericAvrPcb - CADCAM Top SMT Paste Mask.TXT
+Bottom SMT Paste Mask   : Bwl.GenericAvrPcb - CADCAM Bottom SMT Paste Mask.TXT
+Drill                   : Bwl.GenericAvrPcb - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=0.51mm                                                          DRAW
+D11	CIRCLE  D=1.27mm                                                          DRAW
+D12	CIRCLE  D=1.52mm                                                          DRAW
+D13	CIRCLE  D=0.64mm                                                          DRAW
+D14	CIRCLE  D=1.22mm                                                          FLASH
+D15	CIRCLE  D=2.03mm                                                          FLASH
+D16	CIRCLE  D=1.52mm                                                          FLASH
+D17	CIRCLE  D=3.05mm                                                          FLASH
+D18	SQUARE  S=1.27mm                                                          FLASH
+D19	CIRCLE  D=1.27mm                                                          FLASH
+D70	SQUARE  S=2.03mm                                                          FLASH
+D71	SQUARE  S=1.52mm                                                          FLASH
+D20	CIRCLE  D=1.78mm                                                          FLASH
+D21	CIRCLE  D=2.54mm                                                          FLASH
+D22	CIRCLE  D=1.02mm                                                          FLASH
+D23	CIRCLE  D=1mm                                                             FLASH
+D24	CIRCLE  D=0.2mm                                                           DRAW
+D25	CIRCLE  D=0.38mm                                                          DRAW
+D26	RECT    W=2.03mm              H=0.64mm                                    FLASH
+D27	RECT    W=1.45mm              H=1.14mm                                    FLASH
+D28	RECT    W=1.02mm              H=1.52mm                                    FLASH
+D29	RECT    W=1.14mm              H=1.45mm                                    FLASH
+D72	RECT    W=0.94mm              H=1.75mm                                    FLASH
+D73	RECT    W=6.91mm              H=6.4mm                                     FLASH
+D30	RECT    W=1.5mm               H=0.56mm                                    FLASH
+D31	RECT    W=0.56mm              H=1.5mm                                     FLASH
+D32	RECT    W=1.52mm              H=1.02mm                                    FLASH
+D33	RECT    W=2.69mm              H=1.14mm                                    FLASH
+D34	RECT    W=1.8mm               H=5.31mm                                    FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	0.76mm (0-15)
+T02	1.02mm (0-15)
+T03	1.52mm (0-15)
+T04	0.64mm (0-15)
+T05	1.14mm (0-15)
+
+
+[END OF FILE]
