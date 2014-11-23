@@ -2,3 +2,8 @@
 *.pdsprj.*
 *.pdf
 *.zip
+bin
+debug
+obj
+*.txt
+*.workspace
