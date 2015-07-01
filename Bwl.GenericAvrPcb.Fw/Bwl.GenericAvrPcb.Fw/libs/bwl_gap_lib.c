@@ -15,8 +15,8 @@ void gap_led(char r, char g, char b)
 	unsigned char pb=PORTB;
 	pb=pb&0b11111000;
 	if (r){pb|=4;}
-	if (g){pb|=1;}
-	if (b){pb|=2;}
+	if (g){pb|=2;}
+	if (b){pb|=1;}
 	PORTB=pb;
 	return;
 }
