@@ -7,3 +7,5 @@ debug
 obj
 *.txt
 *.workspace
+*.suo
+*.atsuo

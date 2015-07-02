@@ -7,7 +7,7 @@
 
 void sserial_process_request()
 {
-	if (sserial_request.command==100)
+	if (sserial_request.command==95)
 	{
 		byte led_r=sserial_request.data[0];
 		byte led_g=sserial_request.data[1];
