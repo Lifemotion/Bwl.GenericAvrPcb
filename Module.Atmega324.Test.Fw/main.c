@@ -70,6 +70,42 @@ void gpio_test(){
 	uart_send_string(UART_USB,"B1 = 1");
 	setbit(DDRB, 1, 1); setbit(PORTB, 1, 1);
 
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"B2 = 1");
+	setbit(DDRB, 2, 1); setbit(PORTB, 2, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"B3 = 1");
+	setbit(DDRB, 3, 1); setbit(PORTB, 3, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"B4 = 1");
+	setbit(DDRB, 4, 1); setbit(PORTB, 4, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"B5 = 1");
+	setbit(DDRB, 5, 1); setbit(PORTB, 5, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"B6 = 1");
+	setbit(DDRB, 6, 1); setbit(PORTB, 6, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"B7 = 1");
+	setbit(DDRB, 7, 1); setbit(PORTB, 7, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"Ñ0 = 1");
+	setbit(DDRC, 0, 1); setbit(PORTC, 0, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"C1 = 1");
+	setbit(DDRC, 1, 1); setbit(PORTC, 1, 1);
+
+	while(!uart_received(UART_USB));uart_get(UART_USB);
+	uart_send_string(UART_USB,"C6 = 1");
+	setbit(DDRC, 6, 1); setbit(PORTB, 6, 1);
+
 
 }
 int main(void)
