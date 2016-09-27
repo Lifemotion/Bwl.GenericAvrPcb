@@ -1,7 +1,7 @@
 #ifndef BOARD_H
 #define BOARD_H
 
-#define F_CPU 16000000UL
+#define F_CPU 8000000UL
 #define BAUD 9600
 #define UART_USB 0
 
