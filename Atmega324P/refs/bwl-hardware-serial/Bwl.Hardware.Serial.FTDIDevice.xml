@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Bwl.Hardware.Serial.FTDIDevice
+</name>
+</assembly>
+<members>
+<member name="T:bwl.Hardware.Serial.My.Resources.Resources">
+<summary>
+  Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+</summary>
+</member>
+<member name="P:bwl.Hardware.Serial.My.Resources.Resources.ResourceManager">
+<summary>
+  Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+</summary>
+</member>
+<member name="P:bwl.Hardware.Serial.My.Resources.Resources.Culture">
+<summary>
+  Перезаписывает свойство CurrentUICulture текущего потока для всех
+  обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+</summary>
+</member>
+<member name="T:bwl.Hardware.Serial.FTDIUsbDevice.UsbDeviceException">
+ <summary>
+ Исключение, возникшее в классе устройства USB.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:bwl.Hardware.Serial.FTDIUsbDevice.PingerRealization">
+ <summary>
+ Проверяет состояние USB-модуля. Вызывается таймером pingTimer
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:bwl.Hardware.Serial.FTDIUsbDevice.DisconnectRealization">
+ <summary>
+ Отключить синхронизатор.
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+</members>
+</doc>

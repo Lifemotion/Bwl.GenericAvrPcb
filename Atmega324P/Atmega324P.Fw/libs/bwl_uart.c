@@ -108,13 +108,6 @@ void uart_send(const unsigned char port, unsigned char byte )
 	#endif
 }
 
-void uart_send_string(unsigned char port,char *string)
-{
-	char dlen = sizeof(string);
-	while(dlen--){
-		uart_send(port, *string++);
-	}
-}
  unsigned char uart_received(unsigned char port)
 {
 	if (port==0){	return (UCSR0A & (1<<RXC0));}

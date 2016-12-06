@@ -26,13 +26,13 @@
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
 				<d4p1:anyType i:type="FileInfo">
-					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\include\avr\iom324pa.h</AbsolutePath>
+					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\include\avr\iom324p.h</AbsolutePath>
 					<Attribute></Attribute>
 					<Category>header</Category>
 					<Condition>C</Condition>
-					<FileContentHash>lEekL63m0vjd2l4EPxvXTw==</FileContentHash>
+					<FileContentHash>1lV4gmNXbV43N30SmRsV6A==</FileContentHash>
 					<FileVersion></FileVersion>
-					<Name>include/avr/iom324pa.h</Name>
+					<Name>include/avr/iom324p.h</Name>
 					<SelectString></SelectString>
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
@@ -41,7 +41,7 @@
 					<Attribute>template</Attribute>
 					<Category>source</Category>
 					<Condition>C Exe</Condition>
-					<FileContentHash>AAuOgoh36PJxyXC3qjsO4A==</FileContentHash>
+					<FileContentHash>IMABa6pxd8Hry0rUPB2Waw==</FileContentHash>
 					<FileVersion></FileVersion>
 					<Name>templates/main.c</Name>
 					<SelectString>Main file (.c)</SelectString>
@@ -59,13 +59,13 @@
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
 				<d4p1:anyType i:type="FileInfo">
-					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\gcc\dev\atmega324pa</AbsolutePath>
+					<AbsolutePath>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\gcc\dev\atmega324p</AbsolutePath>
 					<Attribute></Attribute>
 					<Category>libraryPrefix</Category>
 					<Condition>GCC</Condition>
 					<FileContentHash i:nil="true" />
 					<FileVersion></FileVersion>
-					<Name>gcc/dev/atmega324pa</Name>
+					<Name>gcc/dev/atmega324p</Name>
 					<SelectString></SelectString>
 					<SourcePath></SourcePath>
 				</d4p1:anyType>
@@ -74,7 +74,7 @@
 			<PackPath>C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/Atmel.ATmega_DFP.pdsc</PackPath>
 			<PackVersion>1.0.106</PackVersion>
 			<PresentInProject>true</PresentInProject>
-			<ReferenceConditionId>ATmega324PA</ReferenceConditionId>
+			<ReferenceConditionId>ATmega324P</ReferenceConditionId>
 			<RteComponents xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 				<d4p1:string></d4p1:string>
 			</RteComponents>

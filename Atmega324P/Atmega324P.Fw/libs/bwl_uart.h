@@ -21,6 +21,7 @@ void uart_disable(unsigned char port);
 
 void uart_send_line(unsigned char port,char *string);
 void uart_send_int(unsigned char port,int val);
+void uart_send_string(unsigned char port,char *string);
 void uart_send_float(unsigned char port,float val, char precision);
 
 #endif /* BWL_UART_H_ */
